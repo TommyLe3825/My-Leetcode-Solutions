@@ -1,4 +1,4 @@
-# My-Leetcode-Solutions
+# My Leetcode Solutions
 My journey to learn Python and trying to tackle complex daily programming problems
 
 ## Disclaimer
