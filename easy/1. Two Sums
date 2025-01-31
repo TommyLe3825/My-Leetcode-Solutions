@@ -1,0 +1,13 @@
+# Solution replicated from Neetcode for educational purposes:
+# https://www.youtube.com/watch?v=KLlXCFG5TnA
+
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        prevMap = {} # value from array : index
+
+        for i, n in enumerate(nums): #i index and n is number
+            difference = target - n
+            if difference in prevMap: #checking if difference is in hashmap
+                return [prevMap[difference],i] #return it if found
+            prevMap[n]= i #update hashmap with current value at the index
+        return #You don't really need this because we are gurantee a solution
