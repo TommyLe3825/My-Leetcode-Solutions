@@ -4,7 +4,7 @@ This folder contains solutions to **easy** problems from LeetCode. Each problem 
 - The **solution code** and a link to an online solution if I needed assistance
 - A link to the **reflection file** documenting the approach, challenges, and learnings.
 - A link to the original LeetCode problem.
-- A link to anything I used to help me.
+- A link to anything I used to help.
 
 ## 📜 Problems Solved
 | #   | Problem Name                         | Solution | Reflection  | LeetCode Link | Notes                     |
