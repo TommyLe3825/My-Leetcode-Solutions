@@ -7,7 +7,7 @@ class Solution:
 
         for i, n in enumerate(nums): #i index and n is number
             difference = target - n
-            if difference in prevMap: #checking if difference is in hashmap
+            if difference in prevMap: #checking if the difference is in hashmap
                 return [prevMap[difference],i] #return it if found
-            prevMap[n]= i #update hashmap with current value at the index
-        return #You don't really need this because we are gurantee a solution
+            prevMap[n]= i #update hashmap with the current value at the index
+        return #You don't need this because we are guaranteed a solution
