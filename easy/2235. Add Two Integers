@@ -1,0 +1,4 @@
+class Solution:
+    def sum(self, num1: int, num2: int) -> int:
+        return num1+num2
+#The first parameter is self and it is used because the function is defined inside a class and usually allows access to other attributes and methods of the class
