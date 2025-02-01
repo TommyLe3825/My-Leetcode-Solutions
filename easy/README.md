@@ -10,3 +10,4 @@ This folder contains solutions to **easy** problems from LeetCode. Each problem 
 | #   | Problem Name                         | Solution | Reflection  | LeetCode Link | Notes                     |
 |-----|--------------------------------------|----------|-------------|---------------|---------------------------|
 | 1. | Two Sums|-----|[Two Sums Reflection](https://docs.google.com/document/d/1EhiwZ1DCt91yzNqhhVXQ9nfCd3Ehf9oM9k3Vl3FCKjo/edit?usp=sharing)|[Link](https://leetcode.com/problems/two-sum/description/)| [Two Sum - Leetcode 1 - HashMap - Python by Neetcode](https://www.youtube.com/watch?v=KLlXCFG5TnA)|
+|2235.| Add Two Integers| --------| ----------|[Link](https://leetcode.com/problems/add-two-integers/description/)| Simple return statement|
