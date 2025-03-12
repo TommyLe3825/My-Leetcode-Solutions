@@ -1,0 +1,13 @@
+class Solution:
+    def maximumCount(self, nums: List[int]) -> int:
+        pos, neg = 0, 0 #Keeping counts of the negatives and positives
+
+        #Checking if it's positive or negative to increase count
+        for x in nums:
+            if x < 0:
+                neg+=1
+            elif x > 0:
+                pos+=1
+
+        #Return the one with the better count
+        return max(pos,neg)
